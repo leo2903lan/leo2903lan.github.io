@@ -1,0 +1,9 @@
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+}
+.img-skill {
+  width: 100px;
+}

@@ -1,0 +1,55 @@
+.box-banner {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top:5%;
+  padding: 5%;
+  transition-duration: 0.3s;
+}
+
+.box-developer {
+  color: azure;
+  font-size: 60px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.foto-banner {
+  border-radius: 50%;
+  width: 30%;
+  display: none;
+  transition-duration: 0.5s;
+}
+
+.desenho-banner {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.button-box-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.box-banner-border {
+  padding-bottom: 2rem;
+  border-bottom: 3px solid lightslategray;
+}
+
+@media (max-width: 700px) {
+  .box-banner {
+    flex-direction: column-reverse;
+    margin-top: 1%;
+  }
+
+  .foto-banner {
+    display: block;
+  }
+
+  .desenho-banner {
+    display: none;
+  }
+
+  
+}

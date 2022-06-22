@@ -1,0 +1,10 @@
+.footer-box {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  font-weight: 800;
+  border-top: 3px solid lightslategray;
+}
