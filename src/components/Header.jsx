@@ -21,13 +21,20 @@ function Header() {
           <a className="nav-link" to="#">Projetos</a>
           <a className="nav-link" to="#">Contato</a>
         </nav>
-        <Icon
+        {!isNavExpanded ? <Icon
           className="menu-hamburguer"
           onClick={() => {
             console.log('cheguei')
           setIsNavExpanded(!isNavExpanded)}}
           icon="mdi:microsoft-xbox-controller-menu"
         />
+        : <Icon
+        className="menu-hamburguer"
+        onClick={() => {
+          console.log('cheguei')
+        setIsNavExpanded(!isNavExpanded)}}
+        icon="akar-icons:circle-x" />}
+        
     </header>
   )
 }
